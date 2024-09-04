@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()",
+    "crumbs": [
+      "core"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "a",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "a"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "a",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nSetup\nIt can be helpful to have a dedicated environment for development. Here we are assuming that you have an conda environment file called env.yml named after a i.e.:\n# env.yml\nname: a\n\nchannels:\n  - fastai\n\ndependencies:\n  - fastai::nbdev&gt;=2.3.12\n# - python&gt;=3.11  # specify python version if required \n# - dependency 1\n# - dependency 2\n# - pip\n# pip:\n#   - pip dependency 1\n#   - pip dependency 2\nYou can then use conda or mamba (faster at resolving) to create and update your environment file should your needs change as you work on a\n# create a conda environment for working on a\n$ mamba env create -f env.yml\n\n# update conda environment\n$ mamba env update -n a --file env.yml\n\n\nInstall a in Development mode\n# activate conda environment\n$ conda activate a\n\n# make sure a package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to a\n$ nbdev_prepare",
+    "crumbs": [
+      "a"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "a",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/a/a.git\nor from conda\n$ conda install -c a a\nor from pypi\n$ pip install a\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "a"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "a",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "a"
+    ]
+  }
+]
